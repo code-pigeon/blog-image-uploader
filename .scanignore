@@ -1,0 +1,39 @@
+# 项目扫描忽略文件
+# 语法类似 .gitignore
+
+# 版本控制
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 日志文件
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 依赖
+node_modules/
+venv/
+env/
+
+# 大文件
+*.zip
+*.tar
+*.gz
+
+# 临时文件
+*.tmp
+temp/

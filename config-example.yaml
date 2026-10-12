@@ -1,0 +1,17 @@
+image-table-path: "D:/image_table.yaml"
+
+local:
+    '../media/image/article/'
+imgurl:
+    token: '...'
+    base_url: 'https://www.imgurl.org'   # 可选，默认就是这个
+    album_id: ...                           # 可选，默认相册为0
+jpg_dog:
+    api_key: ...
+    album_id: ...
+cloudflare: 
+    account_id: ...
+    access_key: ..
+    secret_key: ...
+    bucket_name: ...
+    public_domain: "..."
